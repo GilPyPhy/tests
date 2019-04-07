@@ -3,3 +3,5 @@ channels:
 dependencies:
   - ipyvolume
   - appmode
+  - ipywidgets
+  - jupyter_contrib_nbextensions
