@@ -1,11 +1,5 @@
 #!/bin/bash
 jupyter contrib nbextension install --user
-jupyter nbextension enable --py widgetsnbextension
-jupyter nbextension enable python-markdown/main
 jupyter nbextension enable collapsible_headings/main
-jupyter nbextension enable rubberband/main
-jupyter nbextension enable exercise/main
-jupyter nbextension enable exercise2/main
-
 jupyter trust index.ipynb
-python -c "import ipyvolume; ipyvolume.datasets.aquariusA2.fetch()"
+python -c "import ipyvolume"
